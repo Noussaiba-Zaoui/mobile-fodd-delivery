@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="banner"></div>
+    <div class="content-wrapper">
+      <div id="container" class="container"></div>
+      <div id="ur-order-wrapper"></div>
+      <p id="p-thank-you" class="hidden">Thank you for you order</p>
+    </div>
+    <div id="pop-up" class="hidden">
+      <form class="pop-up-content">
+        <h2>Enter Card Details</h2>
+        <input type="text" id="name" placeholder="Name" required />
+        <input
+          type="text"
+          id="card-number"
+          placeholder="Card number"
+          required
+        />
+        <input type="text" id="cvv" placeholder="Cvv" required />
+        <button class="btn pay" type="submit" id="submit">Pay</button>
+      </form>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
